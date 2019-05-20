@@ -1,0 +1,9 @@
+<div class="row">
+    <ul>
+      <li *ngFor="let todo of (todos | async).todos; let i = index">
+          {{todo.task}} - {{todo.creator}} <button (click)="onDeleteTodo(i)">Delete</button>
+      </li>
+    </ul>
+</div>
+
+

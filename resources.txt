@@ -1,0 +1,3 @@
+
+//rxjs-compat
+npm install --save rxjs-compat
